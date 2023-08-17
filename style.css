@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: larger;
+}
+.opc button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+body {
+    background-color: black;
+}
+.box{
+    display: block;
+    margin: auto;
+    width: 370px;
+    height: 610px;
+    margin-top: 2%;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 8px;
+}
+.box-result{
+    display: block;
+    height: 90px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+.box-result p{
+    display: inline-block;
+    margin: auto;
+    margin-top: 7%;
+    margin-left: 15px;
+    
+}
+button{
+    display: inline;
+    background-color: white;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 95px;
+    height: 95px;
+    cursor: pointer;
+    padding-top:1% ;
+}
+button:hover{
+    background-color: rgb(199, 199, 199);
+}
+button:active{
+    background-color: rgb(155, 155, 155);
+
+}
+
